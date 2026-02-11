@@ -36,6 +36,8 @@ Bash
 python3 loRA_Eğitim.py
 
 📸 Ekran Görüntüleri
+
+
 <img width="648" height="878" alt="Ekran görüntüsü 2026-02-11 231753" src="https://github.com/user-attachments/assets/db564ace-e01a-49fa-b005-9e4004d99b66" />
 <img width="649" height="879" alt="Ekran görüntüsü 2026-02-11 231814" src="https://github.com/user-attachments/assets/8e1fb656-a1c2-4694-9af4-a9a43eeb54ad" />
 
