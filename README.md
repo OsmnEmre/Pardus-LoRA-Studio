@@ -33,14 +33,20 @@ Sisteminizde **Python 3.10+** kurulu olduğundan emin olun.
 git clone [https://github.com/kullanici_adin/Pardus-LoRA-Studio.git](https://github.com/kullanici_adin/Pardus-LoRA-Studio.git)
 cd Pardus-LoRA-Studio
 
+```
+
 ### 2. Projeyi Klonlayın
 ```bash
 python3 loRA_Eğitim.py
 
----
+```
 
-## Neden Bu Projeyi Yaptım?
+## 💡 Neden Bu Projeyi Yaptım?
 
 LoRA eğitimlerine ilk başladığımda teknik terimler ve karmaşık komut satırları yüzünden pes etme noktasına gelmiştim. Kodlama konusunda derin bir bilgim olmamasına rağmen, yapay zekadan destek alarak benim gibi bu işe yeni başlayanların hayatını kolaylaştıracak bir araç geliştirmek istedim.
 
 Yusuf İpek'in Pardus 2026 inceleme videosunu izlerken, halihazırda kullandığım bu projeyi neden açık kaynak olarak paylaşmayayım diye düşündüm. Belki bir yerlerde bu işlerle uğraşırken kafası karışan bir dostumuza yardımcı olur. Güle güle kullanın, projeyi geliştirmeye ve güncellemeler yapmaya devam edeceğim.
+
+
+
+
