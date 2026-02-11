@@ -1,49 +1,46 @@
-🚀 LoRA Studio v1.7.1
+# 🚀 LoRA Studio v1.7.1
 
-Pardus ve Windows sistemlerinde yapay zeka (Stable Diffusion) eğitimi için kullanılan LoRA parametrelerini kolayca yönetmenizi ve eğitim komutları oluşturmanızı sağlayan modern bir grafik arayüzüdür.
+Pardus ve Windows sistemlerinde yapay zeka (Stable Diffusion) eğitimi için kullanılan LoRA parametrelerini kolayca yönetmenizi ve eğitim komutları oluşturmanızı sağlayan **modern ve kullanıcı dostu** bir grafik arayüzüdür. Özellikle terminal karmaşasından uzaklaşmak isteyen ve eğitim sürecine yeni başlayan geliştiriciler için tasarlanmıştır.
 
-✨ Özellikler
+---
 
-🌑 Dark & Light Mode: Göz yormayan karanlık tema ve klasik aydınlık tema desteği.
+## ✨ Öne Çıkan Özellikler
 
-🌍 Çoklu Dil (TR/EN): Tek tıkla Türkçe ve İngilizce dilleri arasında geçiş.(Yeni dilleri zamanla ekleyeceğim.)
+* 🌑 **Modern UI:** Karanlık (Dark) ve Aydınlık (Light) mod desteği ile şık ve göz yormayan tasarım.
+* 🌍 **Çoklu Dil (TR/EN):** Tek tıkla Türkçe ve İngilizce dil seçeneği (Yeni diller yakında eklenecektir).
+* 💡 **Akıllı İpuçları (Tooltips):** Parametrelerin üzerine gelindiğinde ne işe yaradıklarını açıklayan rehber imleçler.
+* ⚙️ **Otomatik Komut:** Ayarlarınızı anında `accelerate launch` komutuna dönüştürür.
+* 🔄 **Hızlı Sıfırlama:** Yanlış giden ayarları tek tuşla güvenli varsayılanlara döndürme.
+* 🐧 **Pardus Uyumlu:** Linux tabanlı sistemlerde sorunsuz çalışma ve otomatik dosya yolu yönetimi.
 
-💡 Akıllı İpuçları (Tooltips): Parametrelerin üzerine gelindiğinde ne işe yaradıklarını açıklayan rehberler.
+---
 
-⚙️ Komut Oluşturucu: Seçilen yolları ve parametreleri otomatik olarak accelerate launch komutuna dönüştürür.
+## 📸 Ekran Görüntüleri
 
-🔄 Hızlı Sıfırlama: Yanlış giden ayarları tek tuşla güvenli varsayılanlara döndürme.
+| Karanlık Mod | Aydınlık Mod |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/db564ace-e01a-49fa-b005-9e4004d99b66" width="300"> | <img src="https://github.com/user-attachments/assets/8e1fb656-a1c2-4694-9af4-a9a43eeb54ad" width="300"> |
 
-🐧 Pardus Uyumlu: Linux tabanlı sistemlerde sorunsuz çalışma ve otomatik dosya yolu yönetimi.
+---
 
-🛠️ Kurulum
+## 📦 Kurulum ve Kullanım
 
-Projeyi bilgisayarınızda çalıştırmak için:
+### 1. Gereksinimler
+Sisteminizde **Python 3.10+** kurulu olduğundan emin olun.
 
-Bu depoyu klonlayın:
-
-Bash
-
-git clone https://github.com/kullanici_adin/Pardus-LoRA-Studio.git
-
-Klasöre gidin:
-
-Bash
-
+### 2. Projeyi Klonlayın
+```bash
+git clone [https://github.com/kullanici_adin/Pardus-LoRA-Studio.git](https://github.com/kullanici_adin/Pardus-LoRA-Studio.git)
 cd Pardus-LoRA-Studio
 
-Uygulamayı çalıştırın:
-
-Bash
-
+### 2. Projeyi Klonlayın
+```bash
 python3 loRA_Eğitim.py
 
-📸 Ekran Görüntüleri
+---
 
+## Neden Bu Projeyi Yaptım?
 
-<img width="648" height="878" alt="Ekran görüntüsü 2026-02-11 231753" src="https://github.com/user-attachments/assets/db564ace-e01a-49fa-b005-9e4004d99b66" />
-<img width="649" height="879" alt="Ekran görüntüsü 2026-02-11 231814" src="https://github.com/user-attachments/assets/8e1fb656-a1c2-4694-9af4-a9a43eeb54ad" />
+LoRA eğitimlerine ilk başladığımda teknik terimler ve karmaşık komut satırları yüzünden pes etme noktasına gelmiştim. Kodlama konusunda derin bir bilgim olmamasına rağmen, yapay zekadan destek alarak benim gibi bu işe yeni başlayanların hayatını kolaylaştıracak bir araç geliştirmek istedim.
 
-💡 Neden Bu Projeyi Yaptım?
-
-Kendim loRA eğitimlerine başlarken oldukça fazla zorlandığım için neredeyse pes etme noktasına gelmiştim. Pek fazla kod bilmediğim içinde yapay zekadan destek alarak böyle bir proje yapmalıyım diye düşündüm. Yusuf İpek'in Pardus 2026 inceleme videosunda hali hazırda duran bu projemi belki benim gibi bu işlerle uğraşırken kafası karışan birisinin işine yarar diye Linux ve Windows üzerinde çalışacak şekilde yayınlama fikri aklıma geldi. Güle güle kullanın arada bir güncelleme yapabilirim.
+Yusuf İpek'in Pardus 2026 inceleme videosunu izlerken, halihazırda kullandığım bu projeyi neden açık kaynak olarak paylaşmayayım diye düşündüm. Belki bir yerlerde bu işlerle uğraşırken kafası karışan bir dostumuza yardımcı olur. Güle güle kullanın, projeyi geliştirmeye ve güncellemeler yapmaya devam edeceğim.
