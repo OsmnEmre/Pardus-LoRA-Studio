@@ -35,7 +35,7 @@ cd Pardus-LoRA-Studio
 
 ```
 
-### 2. Projeyi Klonlayın
+### 2. Uygulamayı Çalıştırın
 ```bash
 python3 loRA_Eğitim.py
 
