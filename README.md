@@ -27,6 +27,7 @@ Pardus ve Windows sistemlerinde yapay zeka (Stable Diffusion) eğitimi için kul
 
 ### 1. Gereksinimler
 Sisteminizde **Python 3.10+** kurulu olduğundan emin olun.
+⚠️ Önemli Not: > Bu program bir arayüzdür. Gerçek bir LoRA eğitimi için bilgisayarınızda Kohya_ss veya sd-scripts kütüphanelerinin kurulu olması gerekir. Eğer yüklü değilse şu komutla temel araçları kurabilirsiniz: pip install -r requirements.txt
 
 ### 2. Projeyi Klonlayın
 ```bash
